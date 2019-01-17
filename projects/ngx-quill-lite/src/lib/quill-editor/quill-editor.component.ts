@@ -24,6 +24,7 @@ export class QuillEditorComponent implements OnInit, OnDestroy {
   @Output() htmlChange = new EventEmitter<string>();
   quillEditor: any;
   private textChangeEvent: any;
+  showEditor = false;
 
   constructor(
     private elementRef: ElementRef,
@@ -34,8 +35,9 @@ export class QuillEditorComponent implements OnInit, OnDestroy {
 
   ngOnInit() {
     this.svc.lazyLoadQuill().subscribe(_ => {
-      Quill = this.document.defaultView.Quill;
-      console.log('Quill is loaded.');
+      if (!Quill) {
+        Quill = this.document.defaultView.Quill;
+      }
       this.setupQuill();
     });
   }
