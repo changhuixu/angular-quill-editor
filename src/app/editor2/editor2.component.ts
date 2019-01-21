@@ -6,7 +6,7 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./editor2.component.css']
 })
 export class Editor2Component implements OnInit {
-
+  html = '<h2>Hello</h2>';
   constructor() { }
 
   ngOnInit() {

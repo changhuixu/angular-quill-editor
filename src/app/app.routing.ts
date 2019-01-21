@@ -2,6 +2,7 @@ import { Route, RouterModule } from '@angular/router';
 import { NgModule } from '@angular/core';
 import { Editor1Component } from './editor1/editor1.component';
 import { Editor2Component } from './editor2/editor2.component';
+import { environment } from 'src/environments/environment';
 
 const routes: Route[] = [
   {
@@ -17,9 +18,9 @@ const routes: Route[] = [
   imports: [
     RouterModule.forRoot(
       routes,
-      { enableTracing: true } // <-- debugging purposes only
+      { enableTracing: !environment.production } // <-- debugging purposes only
     )
   ],
   exports: [RouterModule]
 })
-export class AppRoutingModule {}
+export class AppRoutingModule { }
