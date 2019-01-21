@@ -1,6 +1,6 @@
 {
   "name": "ngx-quill-lite",
-  "version": "7.2.0",
+  "version": "7.2.1",
   "author": "Changhui Xu <changhuixu@hotmail.com>",
   "description": "A light weight Angular wrapper of Quilljs, powerful rich text editor.",
   "keywords": [
