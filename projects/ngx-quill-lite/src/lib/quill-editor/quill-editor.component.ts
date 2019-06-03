@@ -10,7 +10,7 @@ import {
   Inject
 } from '@angular/core';
 import { QuillEditorService } from '../quill-editor.service';
-import { DOCUMENT } from '@angular/platform-browser';
+import { DOCUMENT } from "@angular/common";
 
 declare var Quill: any;
 
