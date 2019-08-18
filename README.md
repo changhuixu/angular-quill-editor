@@ -29,6 +29,13 @@ Extending this library is in my plan. PRs are welcome too.
 
 1. Include quill-editor by `<quill-editor [(html)]="html"></quill-editor>` in your component. `quill-editor` has two way bindings with your `html` string.
 
+1. This component binds the following:
+
+```TypeScript
+  @Input() html = '';
+  @Output() htmlChange = new EventEmitter<string>();
+```
+
 ## Why this library
 
 I have read and contributed to [ngx-quill](https://github.com/KillerCodeMonkey/ngx-quill), which is a good libary and I recommend you use that libary if you have more requirements.

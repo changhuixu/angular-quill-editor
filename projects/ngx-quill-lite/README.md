@@ -13,6 +13,13 @@ Dependencies: @angular/common, @angular/core, @angular/forms, @angular/platform-
 
 1. Optimized toolbar and default configurations for common usages.
 
+1. This component binds the following:
+
+```TypeScript
+  @Input() html = '';
+  @Output() htmlChange = new EventEmitter<string>();
+```
+
 ### Notes
 
 This library is not intended to be widely used. It is build to fit my own needs.
