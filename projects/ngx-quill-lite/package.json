@@ -1,6 +1,6 @@
 {
   "name": "ngx-quill-lite",
-  "version": "9.0.0",
+  "version": "10.0.0",
   "author": "Changhui Xu <changhuixu@hotmail.com>",
   "description": "A light weight Angular wrapper of Quilljs, powerful rich text editor.",
   "keywords": [
@@ -16,9 +16,12 @@
   },
   "license": "MIT",
   "peerDependencies": {
-    "@angular/common": ">=6.0.0",
-    "@angular/core": ">=6.0.0",
-    "@angular/forms": ">=6.0.0",
-    "@angular/platform-browser": ">=6.0.0"
+    "@angular/common": ">=10.0.0",
+    "@angular/core": ">=10.0.0",
+    "@angular/forms": ">=10.0.0",
+    "@angular/platform-browser": ">=10.0.0"
+  },
+  "dependencies": {
+    "tslib": "^2.0.0"
   }
 }
