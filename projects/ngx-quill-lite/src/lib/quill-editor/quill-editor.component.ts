@@ -73,9 +73,9 @@ export class QuillEditorComponent implements OnInit, OnDestroy {
       'text-change',
       (delta: any, oldDelta: any, source: string): void => {
         if (source === 'user') {
-          let html: string | null = this.quillEditor.root.innerHTML;
+          let html: string = this.quillEditor.root.innerHTML || '';
           if (html === '<p><br></p>' || html === '<div><br><div>') {
-            html = null;
+            html = '';
           }
           this.zone.run(() => {
             this.htmlChange.emit(html);

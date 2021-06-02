@@ -5,6 +5,8 @@ Dependencies: @angular/common, @angular/core, @angular/forms, @angular/platform-
 
 [![npm](https://img.shields.io/npm/v/ngx-quill-lite.svg?style=flat-square)](https://www.npmjs.com/package/ngx-quill-lite)
 
+<a href='https://ko-fi.com/changhuixu' target='_blank'><img height='36' style='border:0px;height:36px;' src='https://cdn.ko-fi.com/cdn/kofi3.png?v=2' border='0' alt='Buy Me a Coffee at ko-fi.com' /></a>
+
 ## [Demo](https://ngx-quill-editor.netlify.com/)
 
 ### Features
@@ -41,3 +43,5 @@ Extending this library is in my plan. PRs are welcome too.
 I have read and contributed to [ngx-quill](https://github.com/KillerCodeMonkey/ngx-quill), which is a good libary and I recommend you use that libary if you have more requirements.
 
 My goal of making [ngx-quill-lite](https://github.com/changhuixu/ngx-quill-lite) is to have lazy loading feature, because most of my applications only need Quill in one or two pages. Thus, a specialized library is in need, which gives birth to [ngx-quill-lite](https://github.com/changhuixu/ngx-quill-lite).
+
+<a href='https://ko-fi.com/changhuixu' target='_blank'><img height='36' style='border:0px;height:36px;' src='https://cdn.ko-fi.com/cdn/kofi3.png?v=2' border='0' alt='Buy Me a Coffee at ko-fi.com' /></a>

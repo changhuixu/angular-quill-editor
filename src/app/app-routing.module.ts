@@ -8,10 +8,10 @@ const routes: Route[] = [
   {
     path: '',
     redirectTo: 'editor1',
-    pathMatch: 'full'
+    pathMatch: 'full',
   },
   { path: 'editor1', component: Editor1Component },
-  { path: 'editor2', component: Editor2Component }
+  { path: 'editor2', component: Editor2Component },
 ];
 
 @NgModule({
@@ -19,8 +19,8 @@ const routes: Route[] = [
     RouterModule.forRoot(
       routes,
       { enableTracing: !environment.production } // <-- debugging purposes only
-    )
+    ),
   ],
-  exports: [RouterModule]
+  exports: [RouterModule],
 })
-export class AppRoutingModule { }
+export class AppRoutingModule {}
